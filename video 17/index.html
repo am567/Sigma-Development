@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+
+    <style>
+        /* Element Selector */
+        div{
+            background-color: royalblue;
+        }
+
+        /* Class Selector */
+        .red{
+
+            background-color: red;
+        }
+
+        /* ID Selector */
+        #green{
+
+            background-color: green;
+
+        }
+
+        /* Child Selector..It should be direct child inside the div */
+        div > p{
+
+            background-color: rgba(0, 0, 0, 0.601);
+        }
+
+        /* Descendant Selector */
+
+        div p{
+            background-color: bisque;
+        }
+
+        /* Universal Selector */
+        *{
+            margin: 0;
+            padding: 0;
+        }       
+        
+        /* Psuedo Selector */
+        a:visited{
+            color: purple;
+        }
+
+        a:link{
+            color: green;
+        }
+
+        a:active{
+            background-color: red;
+        }
+
+        a:hover{
+            background-color: violet;
+        }
+
+        p:first-child{
+            background-color: burlywood;
+        }
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <main>
+        <p>I am First child</p>
+        <p>I am Second child</p>
+    </main>
+    
+    <div class="red">
+        I am a good boy.....
+    </div>
+
+    <div>
+        I am also a good boy....
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo totam nobis, corrupti incidunt iusto aliquam? Veritatis, animi dolores nihil aspernatur itaque harum deleniti consequatur dignissimos sit neque amet excepturi sed ut velit, vitae ad? Molestias soluta deleniti perspiciatis a quos rem sapiente voluptatibus sunt ab, ipsum doloribus quas! Dolor molestiae quasi quidem enim! Magni hic ipsum expedita voluptatem eos amet non omnis culpa quae molestias.</p>
+
+        <article>
+            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem laboriosam iusto fuga, eaque eos ex, molestiae aliquid voluptas ea, architecto eum accusamus eligendi odio magni minus saepe illum dolorum quas nobis ullam quibusdam adipisci sunt nulla necessitatibus. Sed, molestias consequuntur debitis provident molestiae soluta sunt adipisci pariatur? Voluptatem porro, enim praesentium recusandae, velit veritatis sed earum rem itaque, explicabo eaque sapiente quaerat laudantium? Dolores deleniti fugiat porro odio iusto quibusdam enim neque eaque quidem maxime aspernatur saepe dolorum, perferendis quasi voluptatum eligendi reiciendis sequi est consectetur, inventore sint sed quas dolore ex! Blanditiis magnam atque vitae ratione saepe? Temporibus, voluptas.</p>
+
+
+        </article>
+    </div>
+
+    <div id="green">
+        I am also too good boy....
+
+        <article>
+            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem laboriosam iusto fuga, eaque eos ex, molestiae aliquid voluptas ea, architecto eum accusamus eligendi odio magni minus saepe illum dolorum quas nobis ullam quibusdam adipisci sunt nulla necessitatibus. Sed, molestias consequuntur debitis provident molestiae soluta sunt adipisci pariatur? Voluptatem porro, enim praesentium recusandae, velit veritatis sed earum rem itaque, explicabo eaque sapiente quaerat laudantium? Dolores deleniti fugiat porro odio iusto quibusdam enim neque eaque quidem maxime aspernatur saepe dolorum, perferendis quasi voluptatum eligendi reiciendis sequi est consectetur, inventore sint sed quas dolore ex! Blanditiis magnam atque vitae ratione saepe? Temporibus, voluptas.</p>
+
+
+        </article>
+    </div>
+
+    
+        <a href="https://www.google.com">Go To Google</a>
+        <a href="https://www.Facebook.com">Go To Facebook</a>
+    
+    
+</body>
+</html>
