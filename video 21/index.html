@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* IT HAS THE SPECIFICITYF 1 */
+        h1{
+            color: aquamarine;
+            /* color: grey !important; IT HAS THE HIGHEST PRIORITY AMONG ALL  */
+        }
+
+        /* IT HAS THE SPECIFICITYF 1+10 = 11 */
+        h1.green{
+
+            color: grey;
+
+        }
+
+        /* IT HAS THE SPECIFICITYF 10 */
+        .cyellow{
+            color: yellow;
+        }
+
+
+        /* IT HAS THE SPECIFICITYF 10 */
+        .cred{
+            color: red;
+        }
+
+        /* IT HAS THE SPECIFICITYF 10 */
+        .cpurple{
+            color: purple;
+        }
+
+
+
+        /* IT HAS THE SPECIFICITYF 10 */
+        /* Attribute Selector */
+         [data-x="a"]{
+            color: brown;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div>
+        <h1  class="cyellow cred cpurple green" data-x="a"> CSS Specificity</h1>
+    </div>
+</body>
+</html>
+
+
+
+<!-- specificity basically refers to which styling is going to be apply on the element text when the selectors conflict each other..
+     e.g.  universal,class,identifier etc..
+     but when the many selectors are there of same element of same class then the position matters. -->
