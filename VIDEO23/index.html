@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS DISPLAY PROPERTY</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .hany{
+            border: 2px solid black;
+            display: inline-block ;
+            padding: 45px;
+            margin: 45px;
+            width: 250px; /* width of the box */
+        }
+
+        .hany1{
+            
+            /* display: none;  it will hide the box */
+            visibility: hidden; /* it will hide the box but it will take the space */ 
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="hany hany1">     <!-- this block ekement but we can convert it into inline using display property.. -->
+        This is a Box.
+    </div>
+
+    <div class="hany">
+        I am good
+    </div>
+
+    <span>
+        I am a good
+    </span>
+    <span>
+        Boy
+    </span>
+    
+</body>
+</html>
