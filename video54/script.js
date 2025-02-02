@@ -10,4 +10,5 @@ console.log("the value of a is" + a);
 
 document.title = "I am a good boy";
 
-document.body.style.backgroundColor = "red";
+document.body.style.backgroundColor = "red";  // this will change the background color of the body to red . DOM manipulation
+
