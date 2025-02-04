@@ -22,44 +22,44 @@ console.log("My name is aman maurya");
 // undefined
 // cont.firstChild
 // #text
-cont.lastChild
-#text
-cont.firstElementChild
-<div class=​"Box">​Box 1​</div>​
-cont.lastElementChild
-<div class=​"Box">​Box 5​</div>​
-cont.lastElementChild.style.color = "red"
-'red'
-cont.lastElementChild.style.backgroundColor = "black"
-'black'
-cont.lastElementChild.parentElement
-    < div class=​"container" >​…​</div >​
+// cont.lastChild
+// #text
+// cont.firstElementChild
+// <div class=​"Box">​Box 1​</div>​
+// cont.lastElementChild
+// <div class=​"Box">​Box 5​</div>​
+// cont.lastElementChild.style.color = "red"
+// 'red'
+// cont.lastElementChild.style.backgroundColor = "black"
+// 'black'
+// cont.lastElementChild.parentElement
+//     < div class=​"container" >​…​</div >​
 
         
-    document.firstElementChild.firstElementChild
-    <head>​…​</head>​
-    document.body.firstElementChild.firstElementChild
-    <div class=​"Box">​Box 1​</div>​
-    document.body.firstElementChild.children
-HTMLCollection(5)[div.Box, div.Box, div.Box, div.Box, div.Box]
+//     document.firstElementChild.firstElementChild
+//     <head>​…​</head>​
+//     document.body.firstElementChild.firstElementChild
+//     <div class=​"Box">​Box 1​</div>​
+//     document.body.firstElementChild.children
+// HTMLCollection(5)[div.Box, div.Box, div.Box, div.Box, div.Box]
     
 
 
-document.body.firstElementChild.children[0]
-<div class=​"Box">​Box 1​</div>​
-document.body.firstElementChild.children[1]
-<div class=​"Box">​Box 2​</div>​
-document.body.firstElementChild.children[2]
-<div class=​"Box">​Box 3​</div>​
-document.body.firstElementChild.children[3]
-<div class=​"Box">​Box 4​</div>​
-document.body.firstElementChild.children[3].nextElementSibling
-<div class=​"Box">​Box 5​</div>​
-document.body.firstElementChild.children[3].previousElementSibling
-<div class=​"Box">​Box 3​</div>​
-document.body.firstElementChild.children[3].nextSibling
-#text
-document.body.firstElementChild.children[4].nextSibling
-#text
-document.body.firstElementChild.children[3].previousSibling
-#text
+// document.body.firstElementChild.children[0]
+// <div class=​"Box">​Box 1​</div>​
+// document.body.firstElementChild.children[1]
+// <div class=​"Box">​Box 2​</div>​
+// document.body.firstElementChild.children[2]
+// <div class=​"Box">​Box 3​</div>​
+// document.body.firstElementChild.children[3]
+// <div class=​"Box">​Box 4​</div>​
+// document.body.firstElementChild.children[3].nextElementSibling
+// <div class=​"Box">​Box 5​</div>​
+// document.body.firstElementChild.children[3].previousElementSibling
+// <div class=​"Box">​Box 3​</div>​
+// document.body.firstElementChild.children[3].nextSibling
+// #text
+// document.body.firstElementChild.children[4].nextSibling
+// #text
+// document.body.firstElementChild.children[3].previousSibling
+// #text
