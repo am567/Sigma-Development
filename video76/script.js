@@ -19,14 +19,14 @@
 // now we will get know about Fetch API (Application Programming Interface)
 async function getData() {
   let x = await fetch("https://jsonplaceholder.typicode.com/todos/1"); // it will return a promise  data which is stored in it ..
-  let data = await x.json();
-  console.log(data);
+  let data = await x.json(); // it takes some time to parse in json
+  return data;
 }
 
 async function main() {
   console.log("Loading Modules");
 
-  console.log("Do Something Else");
+  console.log("Do Something Else"); //else we can say that to our parent component so to correct it ....
 
   console.log("Load Data"); // so it will load data it will take some time
 
@@ -38,8 +38,7 @@ async function main() {
 
   console.log("Task 2");
 }
-
-main();
+main(); // here we have called the function MAIN .....
 
 // data.then((v) => {
 //   // using callback
@@ -49,5 +48,3 @@ main();
 
 //   console.log("Task 2");
 // });
-
-// NOW WE WILL BE USING ASYNC AWAIT
