@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OVERFLOW PROPERTY</title>
+
+    <style>
+        .Box {
+
+            border: 2px solid black;
+            width: 20vw;
+            height: 10vh;
+            overflow-y: scroll;    
+             /* overflow: auto;  it will be applied when the height and width are short in numbers */
+            /* white-space: nowrap;  it will giv in single line with horizontal scrool bar  */
+            /* text-overflow: ellipsis; */
+            overflow-x: hidden;
+
+        }
+    </style>
+  </head>
+  <body>
+    <!-- what happens if the width of box is small than the size of text it comes out of the box ... so we can use OVERFLOW PROPERTY  -->
+
+    <div class="Box">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta omnis,
+      suscipit deserunt corrupti unde quibusdam eveniet temporibus facilis? Quas
+      quibusdam provident nihil ducimus quae. Quis voluptate beatae sit odio
+      incidunt, ipsam voluptatum dolorum nesciunt explicabo soluta cupiditate
+      delectus perspiciatis nihil perferendis ullam accusamus ea autem doloribus
+      reiciendis possimus eaque vel. Eveniet nulla quis, culpa suscipit nesciunt
+      quas, explicabo maxime eum qui quaerat labore quidem eligendi odit
+      sapiente.
+    </div>
+  </body>
+</html>

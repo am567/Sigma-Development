@@ -23,7 +23,7 @@ function sum(a, b, c) {
   //   let b = await sleep();
   //   console.log(b);
 
-  // It's tine for DESTRUCTURING
+  // It's time for DESTRUCTURING
 
   //   let [x, y, ...rest] = [1, 7, 45, 32, 56, 78, 98, 100]; // it is desturcturing
   //   console.log(x, y, rest);
@@ -40,3 +40,5 @@ function sum(a, b, c) {
   let arr = [1, 4, 6];
   console.log(sum(...arr)); // it is spread operator
 })();
+
+// set the time for the latest time given
