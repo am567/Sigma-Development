@@ -37,4 +37,10 @@ p3.then((a) => {
   console.log(err);
 });
 
+// Aman Maurya is the topper of the class
+
 // our try should be that no error should be printed in console
+
+// we should not use try catch block and also not use the power of asynchronous code of wall
+
+//  and we should also

@@ -1,0 +1,51 @@
+ *{                       /* // this will remove the default margin and padding */
+   margin: 0;
+   padding: 0;
+   
+ }
+ 
+ 
+ 
+ body {
+
+    /* //background-color: black; */
+ }
+
+ .left{
+
+  width: 25vw;
+  padding: 12px;
+
+ }
+
+ .home {
+
+
+ }
+
+ .home ul li {
+
+
+   display: flex;
+   width: 14px;
+   list-style: none;   /*// remove the bullet points */
+   gap: 15px;
+   padding-top: 14px;
+   font-weight: bold;
+ }
+
+ .heading{
+
+   display: flex;
+   width: 14px;
+   list-style: none;   /*// remove the bullet points */
+   gap: 15px;
+   padding-top: 14px;
+
+ }
+
+
+ .right{
+
+   width: 75vw;
+ }

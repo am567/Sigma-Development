@@ -1,0 +1,51 @@
+.border {
+
+    border: 2px solid blue;
+    margin: 3px;
+  }
+ 
+  .flex{
+ 
+    display: flex;
+  }
+ 
+  .justify-center{
+ 
+    justify-content: center;
+  }
+ 
+  .items-center{
+ 
+    align-items: center;
+  }
+
+  .bg-black {
+
+    background-color: black;
+    color: white;
+  }
+
+  .bg-grey {
+
+    background-color: #1d1d1d;
+  }
+
+  .invert {
+
+     filter: invert(1);      /* basically used to changed the color of the image home and search from black to white */
+  }
+
+  .rounded {
+
+    border-radius: 7px;
+  }
+
+  .m-1 {
+
+    margin: 5px;
+  }
+
+   .p-1 {     /* USING THIS IT PROVIDE UNIFORMITY TO THE CODE APPEARENCE IMPROVES  */
+
+    padding: 10px;
+  }
